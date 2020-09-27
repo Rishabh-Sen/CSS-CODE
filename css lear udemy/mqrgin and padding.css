@@ -1,0 +1,19 @@
+#p1{
+
+	border:1px dashed blue;
+	padding: 25px;
+	padding-top: 44px;
+	padding-bottom: 44px;
+	padding-right: 49px;
+	padding-left: 55px;
+	padding: 24px 44px 55px 66px;
+	padding: 24px 44px;
+
+	margin: 32px;
+	margin-bottom: 55px;
+	margin-left: 22px;
+	margin-right: 44px;
+	margin-top: 33px;
+	margin: 33px 22px;
+	margin: 22px 33px 44px 55px;
+}

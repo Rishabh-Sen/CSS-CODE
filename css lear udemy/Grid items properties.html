@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grid items properties</title>
+	<style type="text/css">
+		.body1{
+			margin: 0px;
+		}
+		.header1{
+			background-color: lightgreen;
+			height: 200px;
+			grid-area: head;
+
+		}
+		.aside1{
+			background-color: lightblue;
+			height: 200px;
+			grid-area:menu;
+		}
+		.main1{
+			background-color: lightcoral;
+			height: 200px;
+			grid-area: main;
+		}
+		.aside2{
+			background-color: lightgray;
+			height: 200px;
+			grid-area: aside;
+
+		}
+		.footer1{
+			background-color: yellow;
+			height: 200px;
+			grid-area: footer;
+
+		}
+		.Grid-container{
+			display: grid;
+			grid-template-areas:'head head head head head head '
+			'menu  main main main main aside ' 
+			'footer footer footer footer footer footer '
+		}
+	</style>
+</head>
+<body class="body1">
+<div class="Grid-container">
+	<header class="header1">
+		head1
+		<nav class="nav1">
+
+		</nav>
+	</header>
+	<aside class="aside1">
+		menu
+		
+	</aside>
+
+	<main class="main1">
+		main
+		
+	</main>
+	<aside class="aside2">
+		aside
+	</aside>
+<footer class="footer1">
+	footer
+</footer>
+</div>
+</body>
+</html>

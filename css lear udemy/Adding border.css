@@ -1,0 +1,25 @@
+h1{
+
+	text-align: center;
+}
+
+p{
+	/*border-width: 4px;
+	border-color: blue;
+	border-style:dotted;
+	border-style: dashed;
+	border-style: solid;
+	border-bottom-style: dashed;
+	border-top-style: solid;
+	border-right-style: double;
+	border-left-style: dotted; */
+	/*border: 4px dashed blue;*/
+
+	border-radius: 4px;
+
+	border-right: 4px dotted red;
+    border-left: 4px dashed red;
+    border-bottom:  4px double red;
+    border-top: 4px solid blue;
+   
+}

@@ -1,0 +1,59 @@
+body{
+margin: 0px;
+
+}
+
+#nav1{
+
+
+	background-color:lightblue;
+	padding: 25px;
+}
+#buut1{
+font-size: 20px;
+background-color:purple;
+padding: 22px;
+padding-top: 10px;
+padding-bottom: 10px;
+border:0px;
+border-radius: 8px;
+outline: none;
+cursor:pointer; 
+opacity:0.8;
+}
+
+#buut1:hover{
+	background-color: white;
+}
+
+#buut2{
+font-size: 20px;
+background-color:white;
+padding: 22px;
+padding-top: 10px;
+padding-bottom: 10px;
+border:2px solid lightred;
+border-radius: 8px;
+outline: none;
+cursor:pointer;
+opacity: ; 
+}
+#buut2:hover{
+	background-color: green;
+}
+#buut3{
+font-size: 20px;
+background-color:white;
+padding: 22px;
+padding-top: 10px;
+padding-bottom: 10px;
+border:2px solid lightred;
+border-radius: 8px;
+outline: none;
+cursor:not-allowed;
+opacity: 0.9;
+}
+#buut3:hover{
+	background-color: green;
+	opacity: 0.2;
+}

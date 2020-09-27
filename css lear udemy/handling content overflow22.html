@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Handling text over flow</title>
+
+	<style type="text/css">
+		body{
+			margin: 0px;
+			background-color: lightblue;
+		}
+
+		#div1{
+			width: 20%;
+			height: 350px;
+			background-color: white;
+			display: inline-block;
+			box-sizing: border-box;
+			margin: 10px;
+			border-radius: 5px;
+			border:2px ; 
+		}
+		#img1{
+			width: 100%;
+			border-radius: 5px;
+			border:2px ;
+			border-bottom-left-radius :0;
+			border-bottom-right-radius:0;  
+
+
+		}
+		#h1{
+
+			text-align: center;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow:ellipsis;
+		}
+		p{
+			/*word-break:break-all;*/
+			word-wrap:break-word;  
+		}
+	</style>
+</head>
+<body>
+	<div id="div1">
+		<img id="img1" src="https://www.w3schools.com/w3css/img_lights.jpg">
+		<h3 id="h1">viewwww 
+W3Schools
+W3.CSS Imageshhhhhh</h3>
+<p>In literary theory, a text is any object that can be "read", whether this object is a work of literature, a street sign, an arrangement of buildings on a city block, or styles of clothing. It is a coherent set of signs that transmits some kind of informative message.</p>
+		
+	</div>
+
+	<div id="div2">
+		
+	</div>
+
+	<div id="div3">
+		
+	</div>
+
+</body>
+</html>

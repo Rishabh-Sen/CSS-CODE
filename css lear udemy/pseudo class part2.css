@@ -1,0 +1,45 @@
+/*article p:last-of-type{
+	background-color: lightcoral;
+
+
+}
+
+article p:first-of-type{
+	background-color: lightcoral;
+
+
+}
+article p:nth-last-of-type(2){
+	background-color: lightcoral;
+}
+
+
+article p:nth-of-type(2)
+{
+	background-color: lightcoral;
+
+
+}*/
+/*
+article>p:last-child{
+	background-color: lightcoral;
+
+
+}*/
+
+article p:first-child{
+	background-color: lightcoral;
+
+
+}
+article p:nth-last-child(2){
+	background-color: lightcoral;
+}
+
+
+/*article p:nth-child(2)
+{
+	background-color: lightcoral;
+
+
+}*/

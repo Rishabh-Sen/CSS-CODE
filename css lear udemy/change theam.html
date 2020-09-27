@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>change theam</title>
+	<style type="text/css">
+		#theamcol{
+			display: none;
+		}
+
+		#the{
+			cursor: pointer;
+		}
+      #hh:hover #theamcol{
+      	display:block;
+      }
+
+      /*-------------------*/
+      #blue{
+      	color: blue;
+      	cursor: pointer;
+      }
+
+       #black{
+      	color: black;
+      	cursor: pointer;
+      	
+      }
+
+	</style>
+	
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body id="body1">
+	<div id="hh">
+	<span id="the" class="material-icons">
+bedtime
+</span>
+<div id="theamcol">
+<span id="blue" class="material-icons" onclick="head2()">
+brightness_4
+</span>
+<br>
+<span id="black" class="material-icons" onclick="head3()">
+brightness_4
+</span>
+</div>
+</div>
+<script type="text/javascript">
+function head2()
+      {
+        document.getElementById("body1").style.background="SlateBlue";
+        
+       
+
+      }
+
+ function head3()
+      {
+        document.getElementById("body1").style.background="#2D2B2C ";
+
+       
+       
+
+      }     
+</script>
+</body>
+</html>

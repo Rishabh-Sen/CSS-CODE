@@ -1,0 +1,33 @@
+body{
+	margin: 0px;
+	background-color:;
+}
+
+.head1{
+
+height: 50px;
+	background-color: lightblue;
+	position: sticky;
+	top: 0;
+}
+.sec1{
+	display: inline-block;
+	height: 250px;
+	width:20%;
+	background-color:lightcoral;
+	
+	margin: 10px;
+}
+.div2{
+	display: inline-block;
+	height: 250px;
+	width:50%;
+	margin: 5px;
+	background-color:burlywood;
+	
+}
+
+.foot{
+	height: 900px;
+	background-color: gray;
+}
